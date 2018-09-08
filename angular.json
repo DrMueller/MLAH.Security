@@ -121,6 +121,46 @@
           }
         }
       }
+    },
+    "@drmueller/ng-security": {
+      "root": "projects/drmueller/ng-security",
+      "sourceRoot": "projects/drmueller/ng-security/src",
+      "projectType": "library",
+      "prefix": "drm",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/drmueller/ng-security/tsconfig.lib.json",
+            "project": "projects/drmueller/ng-security/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/drmueller/ng-security/ng-package.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/drmueller/ng-security/src/test.ts",
+            "tsConfig": "projects/drmueller/ng-security/tsconfig.spec.json",
+            "karmaConfig": "projects/drmueller/ng-security/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/drmueller/ng-security/tsconfig.lib.json",
+              "projects/drmueller/ng-security/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng-security-demo"
