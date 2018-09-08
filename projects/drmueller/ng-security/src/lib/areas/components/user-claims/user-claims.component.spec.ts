@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgSecurityComponent } from './ng-security.component';
+import { UserClaimsComponent } from './user-claims.component';
 
-describe('NgSecurityComponent', () => {
-  let component: NgSecurityComponent;
-  let fixture: ComponentFixture<NgSecurityComponent>;
+describe('UserClaimsComponent', () => {
+  let component: UserClaimsComponent;
+  let fixture: ComponentFixture<UserClaimsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgSecurityComponent ]
+      declarations: [ UserClaimsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgSecurityComponent);
+    fixture = TestBed.createComponent(UserClaimsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

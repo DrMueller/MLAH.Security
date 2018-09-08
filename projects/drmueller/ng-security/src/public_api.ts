@@ -1,7 +1,4 @@
-/*
- * Public API Surface of ng-security
- */
-
-export * from './lib/ng-security.service';
-export * from './lib/ng-security.component';
-export * from './lib/ng-security.module';
+export * from './lib/areas/components';
+export * from './lib/areas/models';
+export * from './lib/areas/services';
+export * from './lib/areas/ng-security.module';

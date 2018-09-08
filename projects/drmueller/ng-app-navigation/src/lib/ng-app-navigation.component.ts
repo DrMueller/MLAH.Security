@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'drm-ng-security',
+  selector: 'drm-ng-app-navigation',
   template: `
     <p>
-      ng-security works!
+      ng-app-navigation works!
     </p>
   `,
   styles: []
 })
-export class NgSecurityComponent implements OnInit {
+export class NgAppNavigationComponent implements OnInit {
 
   constructor() { }
 

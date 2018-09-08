@@ -22,6 +22,12 @@
       ],
       "@drmueller/ng-security/*": [
         "dist/drmueller/ng-security/*"
+      ],
+      "@drmueller/ng-app-navigation": [
+        "dist/drmueller/ng-app-navigation"
+      ],
+      "@drmueller/ng-app-navigation/*": [
+        "dist/drmueller/ng-app-navigation/*"
       ]
     }
   }
