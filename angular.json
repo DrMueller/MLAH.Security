@@ -161,46 +161,6 @@
           }
         }
       }
-    },
-    "@drmueller/ng-app-navigation": {
-      "root": "projects/drmueller/ng-app-navigation",
-      "sourceRoot": "projects/drmueller/ng-app-navigation/src",
-      "projectType": "library",
-      "prefix": "drm",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
-          "options": {
-            "tsConfig": "projects/drmueller/ng-app-navigation/tsconfig.lib.json",
-            "project": "projects/drmueller/ng-app-navigation/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "project": "projects/drmueller/ng-app-navigation/ng-package.prod.json"
-            }
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/drmueller/ng-app-navigation/src/test.ts",
-            "tsConfig": "projects/drmueller/ng-app-navigation/tsconfig.spec.json",
-            "karmaConfig": "projects/drmueller/ng-app-navigation/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/drmueller/ng-app-navigation/tsconfig.lib.json",
-              "projects/drmueller/ng-app-navigation/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
     }
   },
   "defaultProject": "ng-security-demo"

@@ -4,7 +4,8 @@ import { SecurityUserService } from '../../services';
 import { SecurityUser } from '../../models';
 import { MatDialogConfig, MatDialog } from '@angular/material';
 import { UserClaimsComponent } from '../user-claims';
-import { ModalDialogService } from '../../../../../../ng-mat-extensions/src/lib/areas';
+
+import { ModalDialogService } from '@drmueller/ng-material-extensions';
 
 @Component({
   selector: 'drm-user-menu',

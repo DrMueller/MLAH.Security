@@ -1,4 +1,3 @@
-/// <reference path="../../../../node_modules/adal-angular4/adal-angular.d.ts" />.
 import { Injectable } from '@angular/core';
 
 import { AdalService } from 'adal-angular4';

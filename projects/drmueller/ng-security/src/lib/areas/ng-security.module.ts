@@ -1,7 +1,8 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgMaterialExtensionsModule } from '@drmueller/ng-material-extensions';
 import { CommonModule } from '@angular/common';
 
-import { AdalService } from 'adal-angular4';
+import { AdalService} from 'adal-angular4';
 
 import * as components from './components';
 import * as services from './services';
@@ -18,7 +19,8 @@ import {
     CommonModule,
     MatMenuModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    NgMaterialExtensionsModule
   ],
   entryComponents: [
     components.UserClaimsComponent

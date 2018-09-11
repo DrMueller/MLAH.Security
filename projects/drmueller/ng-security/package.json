@@ -7,6 +7,7 @@
     "adal-angular4": "3.0.5",
     "@angular/animations": "^6.1.7",
     "@angular/cdk": "^6.4.7",
-    "@angular/material": "^6.4.7"
+    "@angular/material": "^6.4.7",
+    "@drmueller/ng-material-extensions": "^1.0.4"
   }
 }
