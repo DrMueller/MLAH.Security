@@ -7,19 +7,9 @@ import { AdalService} from 'adal-angular4';
 import * as components from './components';
 import * as services from './services';
 
-import {
-  MatMenuModule,
-  MatButtonModule,
-  MatDialogModule
-} from '@angular/material';
-
-
 @NgModule({
   imports: [
     CommonModule,
-    MatMenuModule,
-    MatButtonModule,
-    MatDialogModule,
     NgMaterialExtensionsModule
   ],
   entryComponents: [
