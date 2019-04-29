@@ -16,7 +16,7 @@ export class SecurityUserService {
       const claims = this.getClaimsFromUser();
 
       return new SecurityUser(
-        this.getUserName(),
+        this.getUserName(),ng g 
         this.adalService.userInfo.authenticated,
         claims);
     }
